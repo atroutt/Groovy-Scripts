@@ -12,7 +12,7 @@ public class RunAllMFappsTestsUtil {
     }
 
     static void runTests() {
-    	def files = Arrays.asList("jPuzzler", "fulfiller", "DirectoryServiceInterfact", "MessageCenter", "MessagingSystem", "UserViewer", "cas-war")
+    	def files = Arrays.asList("jPuzzler", "fulfiller", "DirectoryServiceInterface", "MessagingCenter", "MessagingSystem", "UserViewer", "cas-war")
 
        	for (f in files) {
 		// A string can be executed in the standard java way:
